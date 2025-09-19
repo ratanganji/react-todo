@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-6">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-6">
-        <h1 className="text-2xl font-bold mb-4 text-center">React To-Do App</h1>
+        <h1 className="text-2xl font-bold mb-4 text-right">React To-Do App</h1>
         
         {/* Input */}
         <form onSubmit={addTask} className="flex gap-2 mb-4">
@@ -55,7 +55,7 @@ function App() {
             placeholder="Enter a task..."
             className="flex-1 border p-2 rounded-lg"
           />
-          <button className="bg-blue-500 text-white px-4 py-2 rounded-lg">
+          <button className="bg-blue-500 text-blue px-4 py-2 rounded-lg">
             Add
           </button>
         </form>
