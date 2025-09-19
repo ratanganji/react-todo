@@ -60,7 +60,7 @@ function App() {
         </form>
 
         {/* Filters */}
-        <div className="flex justify-center gap-2 mb-4">
+        <div className="flex justify-left gap-2 mb-4">
           {['all', 'active', 'completed'].map((f) => (
             <button
               key={f}
