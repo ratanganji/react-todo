@@ -66,7 +66,7 @@ function App() {
               key={f}
               onClick={() => setFilter(f)}
               className={`px-3 py-1 rounded-lg border ${
-                filter === f ? 'bg-blue-500 text-white' : 'bg-white text-gray-700'
+                filter === f ? 'bg-blue-500 text-green' : 'bg-white text-black-700'
               }`}
             >
               {f.charAt(0).toUpperCase() + f.slice(1)}
