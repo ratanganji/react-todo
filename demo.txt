@@ -1,3 +1,3 @@
 Line 1
-Line 2 from branch A
+Line 2 from branch B
 Line 3
