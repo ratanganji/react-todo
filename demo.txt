@@ -1,3 +1,5 @@
 
-let name = "react js and javascript"
+let name = "react js and typescript"
+
+
 
